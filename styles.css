@@ -1,1 +1,16 @@
 /*  your css code here. If applicable */
+p:first-child{
+	background-color:black;
+    color: white;
+}
+
+p:nth-child(4){
+    color: red;
+}
+
+li:nth-child(2n){
+	background-color:slategray;
+    color: black;
+}
+
+
