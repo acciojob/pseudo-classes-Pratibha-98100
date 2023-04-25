@@ -1,10 +1,13 @@
 /*  your css code here. If applicable */
+.div1{
+	top:0px;
+}
 p:first-child{
 	background-color:black;
     color: white;
 }
 
-p:nth-child(4){
+p:last-child{
     color: red;
 }
 
@@ -13,4 +16,18 @@ li:nth-child(2n){
     color: black;
 }
 
+li:first-child{
+	background-color:white;
+}
 
+li:last-child{
+    background-color:white;
+}
+
+li:nth-child(3){
+    background-color:pink;
+}
+
+:root {
+  background: skyblue;
+}
